@@ -1,0 +1,114 @@
+<root>
+  <parameter>
+  <name>data_rep</name>
+  <value>./data/</value>
+</parameter>
+<parameter>
+  <name>result_rep</name>
+  <value>./xps/</value>
+</parameter>
+<parameter>
+  <name>data_l</name>
+  <value>IUCN_EU_nbspc3+_focus_agg</value>
+</parameter>
+<parameter>
+  <name>data_r</name>
+  <value>IUCN_EU_nbspc3+_focus_bio</value>
+</parameter>
+<parameter>
+  <name>out_base</name>
+  <value>biotraits_IUCN_EU_focus_nbspc3+_i.01o.3m.1</value>
+</parameter>
+  <parameter>
+    <name>min_itm_out</name>
+    <value>0.3</value>
+  </parameter>
+  <parameter>
+    <name>min_itm_in</name>
+    <value>0.01</value>
+  </parameter>
+  <parameter>
+    <name>logfile</name>
+    <value>+</value>
+</parameter>
+  <parameter>
+    <name>verbosity</name>
+    <value>8</value>
+  </parameter>
+  <parameter>
+    <name>neg_query</name>
+    <value>Positive</value>
+  </parameter>
+ <parameter>
+	<name>ops_query_s0</name>
+	<value>Conjunction</value>
+	<value>Disjunction</value>
+      </parameter>
+  <parameter>
+	<name>ops_query_s1</name>
+	<value>Conjunction</value>
+      </parameter>
+  <parameter>
+  <name>min_impr</name>
+  <value>0.1</value>
+  </parameter>
+  <parameter>
+    <name>max_var_s0</name>
+    <value>3</value>
+  </parameter>
+  <parameter>
+    <name>max_var_s1</name>
+    <value>3</value>
+  </parameter>
+  <parameter>
+    <name>max_red</name>
+    <value>-1</value>
+  </parameter>
+<parameter>
+  <name>ext_r</name>
+  <value>.csv</value>
+</parameter>
+<parameter>
+  <name>ext_l</name>
+  <value>.csv</value>
+</parameter>
+<parameter>
+	<name>dot_size</name>
+	<value>2.0</value>
+</parameter>
+<parameter>
+	<name>dot_shape</name>
+	<value>o</value>
+</parameter>
+<parameter>
+ <name>literals_contrib</name>
+ <value>yes</value>
+</parameter>
+<parameter>
+<name>alpha_off</name>
+ <value>yes</value>
+</parameter>
+<parameter>
+	<name>llon</name>
+	<value>64.0</value>
+</parameter>
+<parameter>
+	<name>ulon</name>
+	<value>126.0</value>
+</parameter>
+<parameter>
+	<name>llat</name>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>ulat</name>
+	<value>45.0</value>
+</parameter>
+<parameter>
+	<name>map_resolution</name>
+	<value>low</value>
+</parameter>
+<parameter>
+	<name>map_elem_geop</name>
+</parameter>
+</root>

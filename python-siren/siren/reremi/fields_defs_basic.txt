@@ -1,0 +1,41 @@
+field	acc_ratioTL	test:acc:/learn:acc:	.2f
+field	len_I_ratioTA	test:len:I/(1.*all:len:I)	.2f
+fieldlist	queries
+LHS:query:
+RHS:query:
+COND:query:	[wcond]
+fieldlist	cardsall
+all:card:Y	Y={Ex*}[wmissing]{Em*}
+fieldlist	cards
+X:card:Y	Y={Ex*}[wmissing]{Em*} X=[wsplits]{test,learn}{all}[wcond]{cond}
+fieldlist	percsall
+all:perc:Y	Y={Ex*}[wmissing]{Em*}
+fieldlist	percs
+X:perc:Y	Y={Ex*}[wmissing]{Em*} X=[wsplits]{test,learn}{all}[wcond]{cond}
+fieldlist	suppsall
+all:supp:Y	Y={Ex*}[wmissing]{Em*}
+fieldlist	supps
+X:supp:Y	Y={Ex*}[wmissing]{Em*} X=[wsplits]{test,learn}{all}[wcond]{cond}
+fieldlist	statsall
+all:acc:	
+all:len:I	
+all:pval:	
+fieldlist	stats
+X	[wsplits] X={acc_ratioTL,len_I_ratioTA}
+X:acc:	X=[wsplits]{test,learn}{all}[wcond]{cond}
+X:len:I	X=[wsplits]{test,learn}{all}[wcond]{cond}
+X:pval:	X=[wsplits]{test,learn}{all}[wcond]{cond}
+fieldlist	basic
+list	queries
+X:Y:	Y={acc,pval} X=[wsplits]{test,learn}{all}[wcond]{cond}
+X	[wsplits] X={acc_ratioTL,len_I_ratioTA}
+list	cards
+fieldlist	gui
+list	queries
+X	[wsplits] X={acc_ratioTL,len_I_ratioTA}
+list	stats
+fieldlist	tex
+list	queries
+X:acc:	X=[wsplits]{test,learn}{all}[wcond]{cond}
+X:perc:I	X=[wsplits]{test,learn}{all}[wcond]{cond}
+X:pval:	X=[wsplits]{test,learn}{all}[wcond]{cond}

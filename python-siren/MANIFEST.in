@@ -1,0 +1,15 @@
+include siren/reremi/*.py 
+include siren/reremi/*.xml
+include siren/reremi/*.xsl
+include siren/reremi/grako/*.py
+include siren/interface/*.py 
+include siren/interface/*.xml
+include siren/work/*.py 
+include siren/views/*.py 
+include siren/data/help/*
+include siren/data/icons/*.png
+include siren/data/icons/*.ico
+include siren/data/licenses/LICENSE*
+include CHANGELOG
+include LICENSE 
+include MANIFEST.in
