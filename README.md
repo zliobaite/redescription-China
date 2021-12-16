@@ -1,7 +1,33 @@
 # Redescription Mining for Ecology and Biogeography, Support material
 
-##### original article:
+### Original article:
 *Redescription mining for analyzing local limiting conditions: A case study on the biogeography of large mammals in China and southern Asia*. by Esther Galbrun, Hui Tang, Anu Kaakinen and Indrė Žliobaitė, Ecological Informatics, 2021. https://doi.org/10.1016/j.ecoinf.2021.101314
+
+#### Highlights
+
+- We present a methodology for biogeographical analysis
+- Redescription mining emphasizes local association patterns and limiting conditions
+- Redescription mining combines different perspectives over the studied system
+- We showcase the potential of this method for ecological and biogeographical studies
+- We consider an example biogeographic study focused on China and southern Asia
+
+#### Abstract
+
+Identifying and understanding limiting conditions is at the centre of ecology and biogeography.
+Traditionally, associations between climate and occurrences of organisms are inferred from observational data using regression analysis, correlation analysis or clustering.
+Those methods extract patterns and relationships that hold throughout a dataset.
+We present a computational methodology called redescription mining, that emphasizes local patterns and associations that hold strongly on subsets of the dataset, instead.
+We aim to showcase the potential of this methodology for ecological and biogeographical studies, and encourage researchers to try it.
+
+Redescription mining can be used to identify associations between different descriptive views of the same system. It produces an ensemble of local models, that provide different perspectives over the system.
+Each model (redescription) consists of two sets of limiting conditions, over two different views, that hold locally. Limiting conditions, as well as the corresponding subregions, are identified automatically using data analysis algorithms.
+
+We explain how this methodology applies to a biogeographic case study focused on China and southern Asia.
+We consider dental traits of the large herbivorous mammals that occur there and climatic conditions as two aspects of this ecological system, and look for associations between them.
+
+Redescription mining can offer more refined inferences on the potential relation between variables describing different aspects of a system than classical methods. Thus, it permits different questions to be posed of the data, and can usefully complement classical methods in ecology and biogeography to uncover novel biogeographic patterns.
+
+A python package for carrying out redescription mining analysis is publicly available.
 
 ## List of contents
 
